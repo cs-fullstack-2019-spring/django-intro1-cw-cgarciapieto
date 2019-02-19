@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('musicApp.urls')),
+    # sets path and points to the music app
     path('/music', include('musicApp.urls')),
     path('music/kendricklamar', include('musicApp.urls')),
     path('music/dannybrown', include('musicApp.urls')),

@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 
-
+# function that prints the HTTRESPONSE when called
 def index(request):
     return HttpResponse("use this paths to find out more about these artist 'kendricklamar/', 'dannybrown/', 'chancetherapper'")
 
